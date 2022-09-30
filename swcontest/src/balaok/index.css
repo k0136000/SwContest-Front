@@ -1,4 +1,4 @@
-ek{
+.ek{
   font-size: 45px;
   color: #000;
   position: absolute;
@@ -6,20 +6,20 @@ ek{
   top: 32%
 
 }
-op{
+.op{
   width: 135px;
   position: absolute;
   left: 48%;
   top: 10%
 }
-eamp{
+.eamp{
   position: absolute;
   left: 33%;
   top: 42%;
   width: 539px;
   height: 57px;
 }
-pass{
+.pass{
   position: absolute;
   left: 33%;
   top: 55%;
@@ -33,7 +33,7 @@ word{
   width: 539px;
   height: 57px;
 }
-nemp{
+.nemp{
   position: absolute;
   left: 33%;
   top: 78%;
@@ -42,7 +42,7 @@ nemp{
   background-color: black;
   color: rgb(248, 245, 245);
 }
-to {
+.to {
   color: #f5f5f5;
   position: absolute;
   left: 38%;
@@ -50,25 +50,25 @@ to {
  
   font-size: 78px;
 }
-yo{
+.yo{
   color: rgb(255, 255, 255);
   position: absolute;
   left: 38%;
   top: 57%;
   font-size: 32px;
 }
-po{
+.po{
   color: rgb(245, 245, 245);
   position: absolute;
   left: 53%;
   top: 57%;
   font-size: 32px;
 }
-io{
+.io{
   text-decoration: none;
   color: rgb(246, 246, 246);
 }
-uo{
+.uo{
   color: #f5f5f5;
   position: absolute;
   left: 38%;
@@ -76,13 +76,13 @@ uo{
  
   font-size: 78px;
 }
-im{
+.im{
   position: absolute;
   left: 43%;
   top: 13%;
   width: 173px;
 }
-wo{
+.wo{
   position: absolute;
    left: 33%;
    top: 66%;
@@ -93,7 +93,7 @@ wo{
    width: 550px;
    height: 57px;
   } 
-  mo{
+.mo{
     position: absolute;
     left: 49%;
     top: 76%;
@@ -102,14 +102,14 @@ wo{
    color: rgba(125, 104, 104, 0.779);
    
   }
-  lo{
+  .lo{
     position: absolute;
     left: 33%;
     top: 50%;
     width: 542px;
     height: 40px;
   }
-  password{
+  .password{
     position: absolute;
     left: 33%;
     top: 58%;
@@ -117,13 +117,13 @@ wo{
     height: 40px;
   
   }
-  jo{
+  .jo{
     position: absolute;
     left: 42%;
     top: 36%;
     font-size: 57px;
   }
-  ip{
+  .ip{
     position: absolute;
     left: 45%;
     top: 14%;

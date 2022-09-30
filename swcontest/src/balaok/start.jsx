@@ -6,9 +6,15 @@ function App() {
   return (
     <>
       <div className='to'>봐라오케</div>
-      <div className='yo'>악보검색</div>
-      <div className='po'>로그인</div>
+      <ul>
+     <li>
+     <a className='yo' href=''>악보검색</a>
+     </li>
+      <li>
+      <a className='po' href=''>로그인</a>
+      </li>
      <img className='im' src={imA}></img>
+     </ul>
     </>
   );
 }
