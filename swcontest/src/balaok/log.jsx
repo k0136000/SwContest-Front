@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './index.css';
 import imB from "./black.png"
 
