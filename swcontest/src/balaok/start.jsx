@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import imA from "./hw.png"
 import './index.css';
-function App() {
+function start() {
   return (
     <>
       <div className='to'>봐라오케</div>
@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default start;

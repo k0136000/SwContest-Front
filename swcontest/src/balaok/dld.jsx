@@ -1,7 +1,7 @@
 import './index.css';
 import imC from "./black.png"
 
-function App() {
+function did() {
   return (
     <>
     <ul>
@@ -32,4 +32,4 @@ function App() {
 }
 
 
-export default App;
+export default did;

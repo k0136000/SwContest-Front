@@ -1,7 +1,7 @@
 import './index.css';
 import imB from "./black.png"
 
-function App() {
+function log() {
   return (
     <>
     <div className='jo'>봐라오케</div>
@@ -30,4 +30,4 @@ function App() {
 }
 
 
-export default App;
+export default log;

@@ -1,21 +1,21 @@
 
 import './App.css';
-import log from './log';
-import moe from './dld';
-import star from './stary';
+import log from './coin/log';
+import moe from './coin/dld';
+import star from './coin/start';
 import React from 'react';
 import './index.css';
-import { BrowserRouter, Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 
 function App() {
   return (
     <>
     <BrowserRouter>
-    <Route path='/' component={star} />
-    <switch>
+    <Routes>
+        <Route path='/' component={star} />
         <Route path='/main' component={log} />
         <Route path='/profile' component={moe} />
-        </switch>
+      </Routes>
     </BrowserRouter>
     </>
       
