@@ -1,4 +1,21 @@
 
+/*start*/  
+
+.to {
+  color: #f5f5f5;
+  position: absolute;
+  left: 38%;
+  top: 37%;
+ 
+  font-size: 78px;
+}
+.yo{
+  color: rgb(255, 255, 255);
+  position: absolute;
+  left: 38%;
+  top: 57%;
+  font-size: 32px;
+}
 .po{
   color: rgb(245, 245, 245);
   position: absolute;
@@ -103,7 +120,13 @@
     width: 642px;
     height: 57px;
     background-color: black;
-    color: rgb(248, 245, 245);
+    
+    
+  }
+  .qo{
+    font-size: 200%;
+    text-decoration: none;
+    color: rgb(252, 252, 252);
   }
   
   
@@ -119,4 +142,10 @@
     top: 37%;
    
     font-size: 78px;
+  }
+  .md{
+    color: red;
+    position: absolute;
+    left: 47%;
+    top: 68%;
   }

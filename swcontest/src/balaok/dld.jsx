@@ -1,5 +1,5 @@
-import '../index.css';
-import imC from "../black.png"
+import './index.css';
+import imC from "./black.png"
 import { Link } from 'react-router-dom';
 
 function did() {
@@ -23,13 +23,10 @@ function did() {
   type={'password'} placeholder ='비밀번호 다시입력'></input>
   
     
-    
-    <button className='nemp'>회원가입 완료</button>
+  <button className='nemp'><a href ="./log" className='qo'>회원가입 완료</a></button>
+  
     
 
     </>
   );
 }
-
-
-export default did;

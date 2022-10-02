@@ -1,5 +1,5 @@
-import '../index.css';
-import imB from "../black.png"
+import './index.css';
+import imB from "./black.png"
 import { Link } from 'react-router-dom';
 
 
@@ -12,7 +12,7 @@ function log() {
      <button className='wo'>로그인</button>
     
      
-     <Link to = '/dld' className='mo'>회원가입</Link> 
+     <a href="./dld" className='mo'>회원가입</a> 
      
      
      <input className='lo' type={'email'} placeholder='이메일주소'></input>
@@ -29,4 +29,4 @@ function log() {
 }
 
 
-export default log;
+export default l

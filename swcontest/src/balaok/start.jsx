@@ -1,5 +1,5 @@
-import '../App.css';
-import imA from "../hw.png"
+import './app.css';
+import imA from "./hw.png"
 import { Link } from 'react-router-dom';
 
 function start() {
@@ -9,11 +9,12 @@ function start() {
       <div className='to'>봐라오케</div>
       <ul>
      
-     <Link to = '#' className='yo'>악보검색</Link> 
      
-    
-     <Link to ='/log' className='po'>로그인</Link>
-
+     <a href='#'className='yo'>악보검색</a>
+     
+     
+     <a href="./log" className='po'>로그인</a>
+     
      <img className='im' src={imA}></img>
      </ul>
     </>
