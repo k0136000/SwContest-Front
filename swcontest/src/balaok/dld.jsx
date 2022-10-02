@@ -1,5 +1,6 @@
 import '../index.css';
 import imC from "../black.png"
+import { Link } from 'react-router-dom';
 
 function did() {
   return (
@@ -7,7 +8,7 @@ function did() {
     
    <img className='op' src={imC} ></img>
    <div className='ek'>
-    봐라오케
+    봐라 오케
   </div>
   
   <input className='eamp' type={'eamil'} placeholder = '이메일 주소'></input>
@@ -29,3 +30,6 @@ function did() {
     </>
   );
 }
+
+
+export default did;

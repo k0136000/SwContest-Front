@@ -1,18 +1,23 @@
 import '../App.css';
 import imA from "../hw.png"
+import { Link } from 'react-router-dom';
+
 function start() {
   return (
     <>
+
       <div className='to'>봐라오케</div>
-      
+      <ul>
      
-     <a className='yo' href=''>악보검색</a>
+     <Link to = '#' className='yo'>악보검색</Link> 
      
-      
-      <a className='po' href=''>로그인</a>
-      
+    
+     <Link to ='/log' className='po'>로그인</Link>
+
      <img className='im' src={imA}></img>
-  
+     </ul>
     </>
   );
 }
+
+export default start;
