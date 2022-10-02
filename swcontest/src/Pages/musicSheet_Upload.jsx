@@ -41,7 +41,7 @@ export default function musicSheet_Upload() {
         
         axios({
             method: 'POST',
-            url: `/orders/file`,
+            url: `http://localhost:8080/api/sheetmusics`,
             data: formData,
             headers: {
                 'Content-Type': 'multipart/form-data',

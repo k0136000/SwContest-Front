@@ -56,7 +56,7 @@ const uploadFile = (file, order, file_group) => {
 	
 	axios({
 		method: 'POST',
-		url: `/orders/file`,
+		url: `http://52.79.222.1/convert/upload`,
 		data: formData,
 		headers: {
 			'Content-Type': 'multipart/form-data',
