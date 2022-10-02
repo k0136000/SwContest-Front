@@ -8,6 +8,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <change_Upload/>
+    <change_progress/>
+    <musicSheet_Upload/>
   </React.StrictMode>
 );
 
